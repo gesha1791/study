@@ -1,7 +1,5 @@
 package chaplinskiy.javacore.chapter13;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
 public class InstanceOf {
     public static void main(String[] args) {
         A a = new A();
