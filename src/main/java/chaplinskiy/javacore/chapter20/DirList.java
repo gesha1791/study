@@ -1,9 +1,6 @@
 package chaplinskiy.javacore.chapter20;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
 import java.io.File;
-import java.sql.SQLOutput;
 
 public class DirList {
     public static void main(String[] args) {
