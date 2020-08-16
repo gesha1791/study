@@ -1,8 +1,5 @@
 package chaplinskiy.javacore.chapter20;
 
-import com.sun.org.apache.xerces.internal.impl.io.UTF8Reader;
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
-
 import java.io.ByteArrayOutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
