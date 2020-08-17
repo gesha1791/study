@@ -1,6 +1,5 @@
-package chaplinskiy.javacore.chapter22;
+package chaplinskiy.javacore.chapter21;
 
-import java.io.DataInputStream;
 import java.io.IOException;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;

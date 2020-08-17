@@ -1,4 +1,4 @@
-package chaplinskiy.javacore.chapter22;
+package chaplinskiy.javacore.chapter21;
 
 import java.nio.file.*;
 

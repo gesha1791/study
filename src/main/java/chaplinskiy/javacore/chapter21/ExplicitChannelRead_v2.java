@@ -1,11 +1,10 @@
-package chaplinskiy.javacore.chapter22;
+package chaplinskiy.javacore.chapter21;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.SeekableByteChannel;
 import java.nio.file.Files;
 import java.nio.file.InvalidPathException;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class ExplicitChannelRead_v2 {
