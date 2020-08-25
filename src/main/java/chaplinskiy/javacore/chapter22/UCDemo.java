@@ -1,7 +1,5 @@
 package chaplinskiy.javacore.chapter22;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
