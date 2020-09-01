@@ -1,7 +1,5 @@
 package chaplinskiy.javacore.chapter29;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
 import java.util.ArrayList;
 import java.util.Optional;
 import java.util.stream.Stream;
