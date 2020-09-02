@@ -3,7 +3,8 @@ package chaplinskiy.javacore.chapter15;
 public class GenericMethodRefDemo {
 
     static <T> int myOp(MyFunc3<T> f, T[] vals, T v ){
-        return f.func(vals, v);
+        int func = f.func(vals, v);
+        return func;
     }
 
     public static void main(String[] args) {
@@ -11,10 +12,10 @@ public class GenericMethodRefDemo {
         String [] str = {"Один", "Два", "Три", "Два"};
         int count;
 
-        count = myOp(MyArrayOps:: <Integer> countMatching, vals, 4);
+        count = myOp(MyArrayOps::countMatching, vals, 4);
         System.out.println(count);
 
-        count = myOp(MyArrayOps::<String> countMatching, str, "Два");
+        count = myOp(MyArrayOps::countMatching, str, "Два");
         System.out.println(count);
     }
 }

@@ -1,7 +1,5 @@
 package chaplinskiy.javacore.chapter11;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
 public class NewThreadMulti implements Runnable {
     String name;
     Thread t;

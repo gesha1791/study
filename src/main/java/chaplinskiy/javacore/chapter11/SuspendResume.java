@@ -1,6 +1,5 @@
 package chaplinskiy.javacore.chapter11;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
 public class SuspendResume {
     public static void main(String[] args) {
